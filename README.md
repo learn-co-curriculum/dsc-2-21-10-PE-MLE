@@ -229,7 +229,7 @@ Following the monotonicity principle, our argmax function can be written with na
 
 >$\underset{\theta}{\operatorname{argmax}} ln(\theta^6(1-\theta)^4)$
  
-> $=\underset{\theta}{\operatorname{argmax}} 6 (ln (\theta)) *4 (ln(1-\theta))$
+> $=\underset{\theta}{\operatorname{argmax}} 6 (ln (\theta))  + 4 (ln(1-\theta))$
 
 Let's call our log likelihood function $g(\theta)$, take its derivative and set it to zero. 
 
